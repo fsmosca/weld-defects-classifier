@@ -17,3 +17,9 @@ The ResNet50-based classifier achieves high accuracy and balanced precision/reca
    macro avg     0.9437    0.9466    0.9449      2443
 weighted avg     0.9472    0.9468    0.9467      2443
 ```
+
+### Credits
+
+[1] Benito Totino, Fanny Spagnolo, Stefania Perri, "RIAWELC: A Novel Dataset of Radiographic Images for Automatic Weld Defects Classification", in the Proceedings of the Interdisciplinary Conference on Mechanics, Computers and Electrics (ICMECE 2022), 6-7 October 2022, Barcelona, Spain.
+
+[2] Stefania Perri, Fanny Spagnolo, Fabio Frustaci, Pasquale Corsonello, "Welding Defects Classification Through a Convolutional Neural Network", in press in Manufacturing Letters, Elsevier.

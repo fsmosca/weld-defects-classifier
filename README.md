@@ -1,9 +1,17 @@
 # Weld defects classifier
 
-### Model Performance
-The ResNet50-based classifier achieves high accuracy and balanced precision/recall on the [RIAWELC](https://github.com/stefyste/RIAWELC) test dataset. Below is the detailed classification report:
+Weld Defects Classifier is a robust, easy-to-use solution for identifying weld defects in radiographic images. This repository features a deep learning model based on ResNet50, trained exclusively on the acclaimed [RIAWELC](https://github.com/stefyste/RIAWELC) dataset consisting of over 24,000 expertly labeled X-ray images.
 
-### Classification report
+Test radiographic weld images in your browser, you can use the images in the samples folder.  
+Streamlit Webapp: https://weld-defect-j688m.ondigitalocean.app/
+
+Simply upload an X-ray image and receive instant predictions on these four defect classes:  
+Lack of Penetration **(LP)**   
+Porosity **(PO)**   
+Cracks **(CR)**  
+No Defect **(ND)**
+
+### Test Classification report
 ```
 
               precision    recall  f1-score   support

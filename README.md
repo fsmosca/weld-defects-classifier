@@ -2,14 +2,15 @@
 
 Weld Defects Classifier is a robust, easy-to-use solution for identifying weld defects in radiographic images. This repository features a deep learning model based on ResNet50, trained exclusively on the acclaimed [RIAWELC](https://github.com/stefyste/RIAWELC) dataset consisting of over 24,000 expertly labeled X-ray images.
 
-Test radiographic weld images in your browser, you can use the images in the samples folder.  
-Streamlit Webapp: https://weld-defect-j688m.ondigitalocean.app/
+**Test radiographic weld images in your browser**  
+you can use the images in the samples folder and visit the Streamlit [Weld Defect App](https://huggingface.co/spaces/zferd/welding-defect-app). Simply upload an X-ray image and receive instant predictions on these four defect classes:  
 
-Simply upload an X-ray image and receive instant predictions on these four defect classes:  
 Lack of Penetration **(LP)**   
 Porosity **(PO)**   
 Cracks **(CR)**  
 No Defect **(ND)**
+
+You can also [download the model](https://huggingface.co/zferd/welding-defect/tree/main/model) deployed in huggingface.
 
 ### Test Classification report
 ```

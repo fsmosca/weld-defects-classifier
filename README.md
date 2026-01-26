@@ -1,6 +1,6 @@
 # Weld defects classifier
 
-Weld Defects Classifier is a robust, easy-to-use solution for identifying weld defects in radiographic images. This repository features a deep learning model based on ResNet50, trained exclusively on the acclaimed [RIAWELC](https://github.com/stefyste/RIAWELC) dataset consisting of over 24,000 expertly labeled X-ray images.
+Weld Defects Classifier is a robust, easy-to-use solution for identifying weld defects in radiographic images. A model is created using ResNet50 using dataset from [RIAWELC](https://github.com/stefyste/RIAWELC) consisting of over 24,000 labeled radiographic images.
 
 **Test radiographic weld images in your browser**  
 you can use the images in the samples folder and visit the Streamlit [Weld Defect App](https://huggingface.co/spaces/zferd/welding-defect-app). Simply upload an X-ray image and receive instant predictions on these four defect classes:  
@@ -12,7 +12,7 @@ No Defect **(ND)**
 
 You can also [download the model](https://huggingface.co/zferd/welding-defect/tree/main/model) deployed in huggingface.
 
-### Test Classification report
+### Test Classification report (RESNET50)
 ```
 
               precision    recall  f1-score   support
@@ -25,6 +25,25 @@ You can also [download the model](https://huggingface.co/zferd/welding-defect/tr
     accuracy                         0.9468      2443
    macro avg     0.9437    0.9466    0.9449      2443
 weighted avg     0.9472    0.9468    0.9467      2443
+```
+
+---
+
+I also implemented a model using the state-of-the-art YOLOv11 architecture, achieving exceptional accuracy with real-time inference speeds.
+
+### Test Classification report (YOLOv11)
+```
+
+              precision    recall  f1-score   support
+
+          CR     0.9909    0.9798    0.9853       446
+          LP     0.9922    0.9987    0.9954       765
+          ND     1.0000    0.9817    0.9907       600
+          PO     0.9798    0.9968    0.9882       632
+
+    accuracy                         0.9906      2443
+   macro avg     0.9907    0.9893    0.9899      2443
+weighted avg     0.9907    0.9906    0.9906      2443
 ```
 
 ### Credits

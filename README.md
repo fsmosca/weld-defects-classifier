@@ -46,6 +46,10 @@ I also implemented a model using the state-of-the-art YOLOv11 architecture, achi
 weighted avg     0.9907    0.9906    0.9906      2443
 ```
 
+### Yolo test result
+
+Under the video folder there is a video file that shows YOLO's crack defects results from test dataset of RIAWELC. 
+
 ### Credits
 
 [1] Benito Totino, Fanny Spagnolo, Stefania Perri, "RIAWELC: A Novel Dataset of Radiographic Images for Automatic Weld Defects Classification", in the Proceedings of the Interdisciplinary Conference on Mechanics, Computers and Electrics (ICMECE 2022), 6-7 October 2022, Barcelona, Spain.

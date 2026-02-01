@@ -48,7 +48,7 @@ weighted avg     0.9907    0.9906    0.9906      2443
 
 ### Yolo test result
 
-Under the video folder there are a video files that show YOLO's crack, lack of penetration and porosity results from the test dataset of RIAWELC. 
+Under the video folder there are video files that show YOLO's crack, lack of penetration and porosity results from the test dataset of RIAWELC. 
 
 ### Credits
 
